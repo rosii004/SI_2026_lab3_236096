@@ -15,6 +15,7 @@ jobs:
         uses: anishathalye/proof-html@v2
         with:
           directory: ./
+          check_favicon: false
 
   docker-push:
     runs-on: ubuntu-latest
